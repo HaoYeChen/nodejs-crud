@@ -23,7 +23,7 @@ const personRoutes = require('./src/routes/person.routes')
 
 // using as middleware
 
-app.use('/api/persons', personRoutes)
+app.use('/api/person', personRoutes)
 
 
 
